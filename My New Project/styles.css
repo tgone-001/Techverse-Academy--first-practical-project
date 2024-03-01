@@ -1,0 +1,127 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color: powderblue;
+}
+
+header {
+    background-color: grey;
+    color: powderblue;
+    padding: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 10px;
+    border-radius: 5px;
+}
+
+table {
+    border-spacing: 10;
+}
+
+article {
+    background-color: rgb(59, 59, 59);
+    color: powderblue;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    color: rgb(100, 43, 93);
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    padding: 15px;
+    color: rgb(100, 43, 93);
+}
+
+hr {
+    background-color: none;
+    border: ;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(17, 17, 17);
+    border-width: 10px;
+    width: 20%
+}
+
+img {
+    height: 30%;
+    width: 50%;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 25px;
+    background: #eee;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 6px;
+    text-align: center;
+}
+
+a :link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a :visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a :hover {
+    color: rgb(243, 239, 230);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a :active {
+    color: rgb(17, 203, 228);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.botton-clicked {
+    background-color: pink;
+    font-size: 18px;
+    height: 10px;
+    width: 10px;
+}
